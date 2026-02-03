@@ -23,11 +23,16 @@ from misskaty.helper import get_readable_time2
 from misskaty.helper.localization import use_chat_lang
 from utils import put_cleanmode
 
-__MODULE__ = "AFK"
-__HELP__ = """/afk [Reason > Optional] - Tell others that you are AFK (Away From Keyboard), so that your boyfriend or girlfriend won't look for you 💔.
-/afk [reply to media] - AFK with media.
-/afkdel - Enable auto delete AFK message in group (Only for group admin). Default is **Enable**.
-Just type something in group to remove AFK Status."""
+__MODULE__ = "˹ᴀғᴋ˼"
+__HELP__ = """
+╔══════════════════╗
+      🌟 𝗔𝗙𝗞 🌟
+╚══════════════════╝
+❍ Hᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ AFK:
+/afk [Rᴇᴀsᴏɴ > Oᴘᴛɪᴏɴᴀʟ] - Tᴇʟʟ ᴏᴛʜᴇʀs ᴛʜᴀᴛ ʏᴏᴜ ᴀʀᴇ AFK (Aᴡᴀʏ Fʀᴏᴍ Kᴇʏʙᴏᴀʀᴅ), sᴏ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏʏғʀɪᴇɴᴅ ᴏʀ ɢɪʀʟғʀɪᴇɴᴅ ᴡᴏɴ'ᴛ ʟᴏᴏᴋ ғᴏʀ ʏᴏᴜ 💔.
+❍ /afk [ʀᴇᴘʟʏ ᴛᴏ ᴍᴇᴅɪᴀ] - AFK ᴡɪᴛʜ ᴍᴇᴅɪᴀ.
+❍ /afkdel - Eɴᴀʙʟᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ AFK ᴍᴇssᴀɢᴇ ɪɴ ɢʀᴏᴜᴘ (Oɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ). Dᴇғᴀᴜʟᴛ ɪs Eɴᴀʙʟᴇ.
+❍ Jᴜsᴛ ᴛʏᴘᴇ sᴏᴍᴇᴛʜɪɴɢ ɪɴ ɢʀᴏᴜᴘ ᴛᴏ ʀᴇᴍᴏᴠᴇ AFK Sᴛᴀᴛᴜs."""
 
 
 # Handle set AFK Command
