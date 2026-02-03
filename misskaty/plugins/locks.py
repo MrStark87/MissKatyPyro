@@ -37,21 +37,21 @@ from misskaty.vars import COMMAND_HANDLER, SUDO, OWNER_ID
 
 LOGGER = getLogger("MissKaty")
 
-__MODULE__ = "Locks"
+__MODULE__ = "˹ʟᴏᴄᴋs˼"
 __HELP__ = """
-Commands: /lock | /unlock | /locks [No Parameters Required]
+╔══════════════════╗
+     🔐  𝗟𝗢𝗖𝗞𝗦 🔐
+╚══════════════════╝
+❍ Cᴏᴍᴍᴀɴᴅs: /lock | /unlock | /locks [Nᴏ Pᴀʀᴀᴍᴇᴛᴇʀs Rᴇǫᴜɪʀᴇᴅ]
 
-Parameters:
-    messages | sticker | gif | media | games | polls
+❍ Pᴀʀᴀᴍᴇᴛᴇʀs:
+    ᴍᴇssᴀɢᴇs | sᴛɪᴄᴋᴇʀ | ɢɪғ | ᴍᴇᴅɪᴀ | ɢᴀᴍᴇs | ᴘᴏʟʟs
+❍     ɪɴʟɪɴᴇ  | ᴜʀʟ | ɢʀᴏᴜᴘ_ɪɴғᴏ | ᴜsᴇʀ_ᴀᴅᴅ | ᴘɪɴ | ᴘʜᴏᴛᴏ
+❍    ᴠᴏɪᴄᴇ | ᴠɪᴅᴇᴏ | ᴀᴜᴅɪᴏ | ᴅᴏᴄs | ᴘʟᴀɪɴ
+❍ Yᴏᴜ ᴄᴀɴ ᴏɴʟʏ ᴘᴀss ᴛʜᴇ "ᴀʟʟ" ᴘᴀʀᴀᴍᴇᴛᴇʀ ᴡɪᴛʜ /ʟᴏᴄᴋ, ɴᴏᴛ ᴡɪᴛʜ /ᴜɴʟᴏᴄᴋ
 
-    inline  | url | group_info | user_add | pin | photo
-
-    voice | video | audio | docs | plain
-
-You can only pass the "all" parameter with /lock, not with /unlock
-
-Example:
-    /lock all
+❍ Exᴀᴍᴘʟᴇ:
+    /Lock all
 """
 incorrect_parameters = "Incorrect Parameters, Check Locks Section In Help."
 # Using disable_preview as a switch for url checker
