@@ -39,11 +39,14 @@ from misskaty.core.decorator.errors import capture_err
 from misskaty.core.decorator.permissions import adminsOnly, list_admins
 from misskaty.vars import SUDO, OWNER_ID
 
-__MODULE__ = "Blacklist"
+__MODULE__ = "˹ʙʟᴀᴄᴋʟɪsᴛ˼"
 __HELP__ = """
-/blacklisted - Get All The Blacklisted Words In The Chat.
-/blacklist [WORD|SENTENCE] - Blacklist A Word Or A Sentence.
-/whitelist [WORD|SENTENCE] - Whitelist A Word Or A Sentence.
+╔══════════════════╗
+    ⚠️𝗕𝗟𝗔𝗖𝗞𝗟𝗜𝗦𝗧⚠️
+╚══════════════════╝
+❍ /blacklisted - Gᴇᴛ Aʟʟ Tʜᴇ Bʟᴀᴄᴋʟɪsᴛᴇᴅ Wᴏʀᴅs Iɴ Tʜᴇ Cʜᴀᴛ.
+❍ /blacklist [WORD|SENTENCE] - Bʟᴀᴄᴋʟɪsᴛ A Wᴏʀᴅ Oʀ A Sᴇɴᴛᴇɴᴄᴇ.
+❍ /whitelist [WORD|SENTENCE] - Wʜɪᴛᴇʟɪsᴛ A Wᴏʀᴅ Oʀ A Sᴇɴᴛᴇɴᴄᴇ.
 """
 
 
