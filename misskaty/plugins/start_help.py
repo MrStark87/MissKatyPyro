@@ -26,8 +26,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="Commands ❓", callback_data="bot_commands"),
             InlineKeyboardButton(
-                text="Source Code 🛠",
-                url="https://github.com/yasirarism/MissKatyPyro",
+                text="Group 🛠",
+                url="https://t.me/+vtycyXXk3UE0NThl",
             ),
         ],
         [
@@ -35,7 +35,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="System Stats 🖥",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Dev 👨", url="https://t.me/YasirArisM"),
+            InlineKeyboardButton(text="Dev 👨", url="https://t.me/lI_StarkxRich_Il"),
         ],
         [
             InlineKeyboardButton(
@@ -53,8 +53,8 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="Help ❓", url=f"t.me/{BOT_USERNAME}?start=help"),
             InlineKeyboardButton(
-                text="Source Code �",
-                url="https://github.com/yasirarism/MissKatyPyro",
+                text="Group 🛠️",
+                url="https://t.me/+vtycyXXk3UE0NThl",
             ),
         ],
         [
@@ -62,7 +62,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Dev 👨", url="https://t.me/YasirArisM"),
+            InlineKeyboardButton(text="Dev 👨", url="https://t.me/lI_StarkxRich_Il"),
         ],
     ]
 )
