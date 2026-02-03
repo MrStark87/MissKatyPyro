@@ -17,10 +17,14 @@ from misskaty.core import pyro_cooldown
 from misskaty.helper import check_time_gap, post_to_telegraph, use_chat_lang
 from misskaty.vars import COMMAND_HANDLER, GOOGLEAI_KEY, OPENAI_KEY, OWNER_ID, SUDO
 
-__MODULE__ = "ChatBot"
+__MODULE__ = "˹ᴄʜᴀᴛʙᴏᴛ˼"
 __HELP__ = """
-/ai - Generate text response from AI using Gemini AI By Google.
-/ask - Generate text response from AI using OpenAI.
+╔══════════════════╗
+    🤖 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 🤖
+╚══════════════════╝
+❍ /ai - Gᴇɴᴇʀᴀᴛᴇ ᴛᴇxᴛ ʀᴇsᴘᴏɴsᴇ ғʀᴏᴍ AI ᴜsɪɴɢ Gᴇᴍɪɴɪ AI Bʏ Gᴏᴏɢʟᴇ.
+
+❍ /ask - Gᴇɴᴇʀᴀᴛᴇ ᴛᴇxᴛ ʀᴇsᴘᴏɴsᴇ ғʀᴏᴍ AI ᴜsɪɴɢ OᴘᴇɴAI.
 """
 
 gptai_conversations = TTLCache(maxsize=4000, ttl=24*60*60)
@@ -141,6 +145,7 @@ async def openai_chatbot(self, ctx: Message, strings):
             gptai_conversations.pop(uid)
         return
     gptai_conversations[uid].append({"role": "assistant", "content": ai_response})
+
 
 
 
