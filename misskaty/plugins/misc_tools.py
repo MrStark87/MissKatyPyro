@@ -44,22 +44,25 @@ from utils import extract_user, get_file_id
 
 LOGGER = getLogger("MissKaty")
 
-__MODULE__ = "Misc"
+__MODULE__ = "˹ᴍɪsᴄ˼"
 __HELP__ = """
-/carbon [text or reply to text or caption] - Make beautiful snippet code on carbon from text.
-/removebg [Reply to image] - Remove background from image.
-/calc - Simple math calculator using inline buttons.
-/kbbi [keyword] - Search definition on KBBI (For Indonesian People)
-/sof [query] - Search your problem in StackOverflow.
-/google [query] - Search using Google Search.
-(/tr, /trans, /translate) [lang code] - Translate text using Google Translate.
-/tts - Convert Text to Voice.
-/imdb [query] - Find Movie Details From IMDB.com (Available in English and Indonesia version).
-/readqr [reply to photo] - Read QR Code From Photo.
-/createqr [text] - Convert Text to QR Code.
-/anime [query] - Search title in myanimelist.
-/info - Get info user with Pic and full description if user set profile picture.
-/id - Get simple user ID.
+╔══════════════════╗
+    💀 𝗠𝗜𝗦𝗖 💀
+╚══════════════════╝
+❍ /carbon [text or reply to text or caption] - ᴍᴀᴋᴇ ʙᴇᴀᴜᴛɪғᴜʟ sɴɪᴘᴘᴇᴛ ᴄᴏᴅᴇ ᴏɴ ᴄᴀʀʙᴏɴ ғʀᴏᴍ ᴛᴇxᴛ
+❍ /removebg [reply to image] - ʀᴇᴍᴏᴠᴇ ʙᴀᴄᴋɢʀᴏᴜɴᴅ ғʀᴏᴍ ɪᴍᴀɢᴇ
+❍ /calc - sɪᴍᴘʟᴇ ᴍᴀᴛʜ ᴄᴀʟᴄᴜʟᴀᴛᴏʀ ᴜsɪɴɢ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs
+❍ /kbbi [keyword] - sᴇᴀʀᴄʜ ᴅᴇғɪɴɪᴛɪᴏɴ ᴏɴ ᴋʙʙɪ (ғᴏʀ ɪɴᴅᴏɴᴇsɪᴀɴ ᴘᴇᴏᴘʟᴇ)
+❍ /sof [query] - sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴘʀᴏʙʟᴇᴍ ɪɴ sᴛᴀᴄᴋᴏᴠᴇʀғʟᴏᴡ
+❍ /google [query] - sᴇᴀʀᴄʜ ᴜsɪɴɢ ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ
+❍ (/tr, /trans, /translate) [lang code] - ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛ ᴜsɪɴɢ ɢᴏᴏɢʟᴇ ᴛʀᴀɴsʟᴀᴛᴇ
+❍ /tts - ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ
+❍ /imdb [query] - ғɪɴᴅ ᴍᴏᴠɪᴇ ᴅᴇᴛᴀɪʟs ғʀᴏᴍ ɪᴍᴅʙ.ᴄᴏᴍ (ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴇɴɢʟɪsʜ ᴀɴᴅ ɪɴᴅᴏɴᴇsɪᴀ ᴠᴇʀsɪᴏɴ)
+❍ /readqr [reply to photo] - ʀᴇᴀᴅ ǫʀ ᴄᴏᴅᴇ ғʀᴏᴍ ᴘʜᴏᴛᴏ
+❍ /createqr [text] - ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ǫʀ ᴄᴏᴅᴇ
+❍ /anime [query] - sᴇᴀʀᴄʜ ᴛɪᴛʟᴇ ɪɴ ᴍʏᴀɴɪᴍᴇʟɪsᴛ
+❍ /info - ɢᴇᴛ ɪɴғᴏ ᴜsᴇʀ ᴡɪᴛʜ ᴘɪᴄ ᴀɴᴅ ғᴜʟʟ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ɪғ ᴜsᴇʀ sᴇᴛ ᴘʀᴏғɪʟᴇ ᴘɪᴄᴛᴜʀᴇ
+❍ /id - ɢᴇᴛ sɪᴍᴘʟᴇ ᴜsᴇʀ ɪᴅ
 """
 
 
