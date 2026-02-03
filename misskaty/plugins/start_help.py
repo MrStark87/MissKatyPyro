@@ -24,22 +24,22 @@ from misskaty.vars import COMMAND_HANDLER
 home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Commands ❓", callback_data="bot_commands"),
+            InlineKeyboardButton(text="˹ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ˼", callback_data="bot_commands"),
             InlineKeyboardButton(
-                text="Group 🛠",
+                text="˹ɢʀᴏᴜᴘ˼",
                 url="https://t.me/+vtycyXXk3UE0NThl",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="˹sʏsᴛᴇᴍ sᴛᴀᴛs˼",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Dev 👨", url="https://t.me/lI_StarkxRich_Il"),
+            InlineKeyboardButton(text="˹ᴏᴡɴᴇʀ˼", url="https://t.me/lI_StarkxRich_Il"),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="˹ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ˼",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -51,18 +51,18 @@ home_text_pm = f"Hey there! My name is {BOT_NAME}. I have many useful features f
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Help ❓", url=f"t.me/{BOT_USERNAME}?start=help"),
+            InlineKeyboardButton(text="˹ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ˼", url=f"t.me/{BOT_USERNAME}?start=help"),
             InlineKeyboardButton(
-                text="Group 🛠️",
+                text="˹ɢʀᴏᴜᴘ˼",
                 url="https://t.me/+vtycyXXk3UE0NThl",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="˹sʏsᴛᴇᴍ sᴛᴀᴛs˼",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Dev 👨", url="https://t.me/lI_StarkxRich_Il"),
+            InlineKeyboardButton(text="˹ᴏᴡɴᴇʀ˼", url="https://t.me/lI_StarkxRich_Il"),
         ],
     ]
 )
