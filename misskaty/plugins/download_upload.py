@@ -26,17 +26,20 @@ from misskaty.vars import COMMAND_HANDLER, OWNER_ID
 
 LOGGER = getLogger("MissKaty")
 
-__MODULE__ = "Download/Upload"
+__MODULE__ = "˹ᴅᴏᴡɴʟᴏᴀᴅ & ᴜᴘʟᴏᴀᴅ˼"
 __HELP__ = """
-/download [url] - Download file from URL (OWNER Only)
-/download [reply_to_TG_File] - Download TG File
-/tgraph_up [reply_to_TG_File] - Download TG File
-/tiktokdl [link] - Download TikTok Video, try use ytdown command if error.
-/fbdl [link] - Download Facebook Video.
-/instadl [link] - Download photo or video from instagram (Only first post).
-/twitterdl [link] - Dowload video from Twitter aka X.
-/anon [link] - Upload files to Anonfiles.
-/ytdown [YT-DLP Supported URL] - Downloading YT-DLP Supported Video and Audio.
+╔══════════════════╗
+ 📇 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 & 𝗨𝗣𝗟𝗢𝗔𝗗
+╚══════════════════╝
+❍ /download [url] - ᴅᴏᴡɴʟᴏᴀᴅ ғɪʟᴇ ғʀᴏᴍ ᴜʀʟ (ᴏᴡɴᴇʀ ᴏɴʟʏ)
+❍ /download [reply_to_TG_File] - ᴅᴏᴡɴʟᴏᴀᴅ ᴛɢ ғɪʟᴇ
+❍ /tgraph_up [reply_to_TG_File] - ᴅᴏᴡɴʟᴏᴀᴅ ᴛɢ ғɪʟᴇ
+❍ /tiktokdl [link] - ᴅᴏᴡɴʟᴏᴀᴅ ᴛɪᴋᴛᴏᴋ ᴠɪᴅᴇᴏ, ᴛʀʏ ᴜsᴇ ʏᴛᴅᴏᴡɴ ᴄᴏᴍᴍᴀɴᴅ ɪғ ᴇʀʀᴏʀ
+❍ /fbdl [link] - ᴅᴏᴡɴʟᴏᴀᴅ ғᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ
+❍ /instadl [link] - ᴅᴏᴡɴʟᴏᴀᴅ ᴘʜᴏᴛᴏ ᴏʀ ᴠɪᴅᴇᴏ ғʀᴏᴍ ɪɴsᴛᴀɢʀᴀᴍ (ᴏɴʟʏ ғɪʀsᴛ ᴘᴏsᴛ)
+❍ /twitterdl [link] - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ғʀᴏᴍ ᴛᴡɪᴛᴛᴇʀ ᴀᴋᴀ x
+❍ /anon [link] - ᴜᴘʟᴏᴀᴅ ғɪʟᴇs ᴛᴏ ᴀɴᴏɴғɪʟᴇs
+❍ /ytdown [YT-DLP Supported URL] - ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴛ-ᴅʟᴘ sᴜᴘᴘᴏʀᴛᴇᴅ ᴠɪᴅᴇᴏ ᴀɴᴅ ᴀᴜᴅɪᴏ
 """
 
 
