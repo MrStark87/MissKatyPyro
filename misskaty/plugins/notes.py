@@ -41,19 +41,25 @@ from misskaty.core.keyboard import ikb
 from misskaty.helper.functions import extract_text_and_keyb, extract_urls
 from misskaty.vars import COMMAND_HANDLER
 
-__MODULE__ = "Notes"
-__HELP__ = """/notes To Get All The Notes In The Chat.
+__MODULE__ = "˹ɴᴏᴛᴇs˼"
+__HELP__ = """
+╔══════════════════╗
+     📚 𝗡𝗢𝗧𝗘𝗦 📚
+╚══════════════════╝
+❍ /notes - ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴛʜᴇ ɴᴏᴛᴇs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ
 
-/save [NOTE_NAME] or /addnote [NOTE_NAME] To Save A Note.
+❍ /save [NOTE_NAME] ᴏʀ /addnote [NOTE_NAME] - ᴛᴏ sᴀᴠᴇ ᴀ ɴᴏᴛᴇ
 
-Supported note types are Text, Animation, Photo, Document, Video, video notes, Audio, Voice.
+❍ sᴜᴘᴘᴏʀᴛᴇᴅ ɴᴏᴛᴇ ᴛʏᴘᴇs ᴀʀᴇ ᴛᴇxᴛ, ᴀɴɪᴍᴀᴛɪᴏɴ, ᴘʜᴏᴛᴏ, ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴠɪᴅᴇᴏ ɴᴏᴛᴇs, ᴀᴜᴅɪᴏ, ᴠᴏɪᴄᴇ
 
-To change caption of any files use.\n/save [NOTE_NAME] or /addnote [NOTE_NAME] [NEW_CAPTION].
+❍ ᴛᴏ ᴄʜᴀɴɢᴇ ᴄᴀᴘᴛɪᴏɴ ᴏғ ᴀɴʏ ғɪʟᴇs ᴜsᴇ
+❍ /save [NOTE_NAME] ᴏʀ /addnote [NOTE_NAME] [NEW_CAPTION]
 
-#NOTE_NAME To Get A Note.
+❍ #NOTE_NAME - ᴛᴏ ɢᴇᴛ ᴀ ɴᴏᴛᴇ
 
-/delete [NOTE_NAME] or delnote [NOTE_NAME] To Delete A Note.
-/deleteall To delete all the notes in a chat (permanently).
+❍ /delete [NOTE_NAME] ᴏʀ /delnote [NOTE_NAME] - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ɴᴏᴛᴇ
+
+❍ /deleteall - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴛʜᴇ ɴᴏᴛᴇs ɪɴ ᴀ ᴄʜᴀᴛ (ᴘᴇʀᴍᴀɴᴇɴᴛʟʏ)
 """
 
 
