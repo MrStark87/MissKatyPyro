@@ -143,7 +143,7 @@ async def start(self, ctx: Message, strings):
     else:
         await self.send_photo(
             ctx.chat.id,
-            photo="https://img.yasirweb.eu.org/file/90e9a448bc2f8b055b762.jpg",
+            photo="https://files.catbox.moe/zaeh59.jpg",
             caption=home_text_pm,
             reply_markup=home_keyboard_pm,
             reply_to_message_id=ctx.id,
@@ -229,16 +229,18 @@ async def help_parser(name, keyb=None):
     if not keyb:
         keyb = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """Hello {first_name}, My name is {bot_name}.
-I'm a bot with some useful features. You can change language bot using /setlang command, but it's still in beta stage.
-You can choose an option below, by clicking a button.
+        """
+╔══════════════════╗
+ 🆘  𝗛𝗘𝗟𝗣 & 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
+╚══════════════════╝
+❍ Hᴇʟʟᴏ {first_name} 💗.  Mʏ ɴᴀᴍᴇ ɪs {bot_name}.
 
-Send command /privacy if you want know data collected by this bot.
-
-If you want give coffee to my owner you can send /donate command for more info.
+❍ I'ᴍ ᴀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs. Yᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ʟᴀɴɢᴜᴀɢᴇ ʙᴏᴛ ᴜsɪɴɢ /setlang ᴄᴏᴍᴍᴀɴᴅ, ʙᴜᴛ ɪᴛ's sᴛɪʟʟ ɪɴ ʙᴇᴛᴀ sᴛᴀɢᴇ.
+❍ Yᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ.
+❍ Sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ /ᴘʀɪᴠᴀᴄʏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴋɴᴏᴡ ᴅᴀᴛᴀ ᴄᴏʟʟᴇᴄᴛᴇᴅ ʙʏ ᴛʜɪs ʙᴏᴛ.
 """.format(
             first_name=name,
-            bot_name="MissKaty",
+            bot_name="˹𝙂𝙍𝙊𝙐𝙋 𝙃𝙀𝙇𝙋˼",
         ),
         keyb,
     )
