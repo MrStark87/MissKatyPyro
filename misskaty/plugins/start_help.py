@@ -46,7 +46,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
     ]
 )
 
-home_text_pm = f"
+home_text_pm = f"""
 ❍ нєу {user} 💕
 ❍ ᴛʜɪs ɪs {BOT_NAME}
 ╔══════════════════╗
@@ -57,7 +57,7 @@ home_text_pm = f"
 ❍ ᴍᴏᴅᴜʟᴀʀ & sᴄᴀʟᴀʙʟᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ
 ❍ sʟᴇᴇᴋ ᴜɪ ᴡɪᴛʜ ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs
 
-» ᴍᴏʀᴇ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ ..."
+» ᴍᴏʀᴇ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ ..."""
 
 keyboard = InlineKeyboardMarkup(
     [
