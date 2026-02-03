@@ -15,11 +15,16 @@ from misskaty.vars import COMMAND_HANDLER, SUDO, OWNER_ID
 approvaldb = dbname["autoapprove"]
 
 # For /help menu
-__MODULE__ = "Autoapprove"
+__MODULE__ = "˹ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ˼"
 __HELP__ = """
-command: /autoapprove
+╔══════════════════╗
+  🕵️ 𝗔𝗨𝗧𝗢 𝗔𝗣𝗣𝗥𝗢𝗩𝗘 🕵️
+╚══════════════════╝
+❍ Hᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ Aᴜᴛᴏᴀᴘᴘʀᴏᴠᴇ:
 
-This module helps to automatically accept chat join request send by a user through invitation link of your group
+¤ ᴄᴏᴍᴍᴀɴᴅ: /autoapprove 
+
+❍ Tʜɪs ᴍᴏᴅᴜʟᴇ ʜᴇʟᴘs ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴄᴄᴇᴘᴛ ᴄʜᴀᴛ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ sᴇɴᴅ ʙʏ ᴀ ᴜsᴇʀ ᴛʜʀᴏᴜɢʜ ɪɴᴠɪᴛᴀᴛɪᴏɴ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 """
 
 
