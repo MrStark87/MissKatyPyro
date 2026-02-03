@@ -64,24 +64,27 @@ from misskaty.helper.localization import use_chat_lang
 from database.payment_db import autopay_update
 from misskaty.vars import AUTO_RESTART, COMMAND_HANDLER, LOG_CHANNEL, SUDO, OWNER_ID, PAYDISINI_CHANNEL_ID, PAYDISINI_KEY
 
-__MODULE__ = "DevCommand"
+__MODULE__ = "˹ᴅᴇᴠ ᴄᴏᴍᴍᴀɴᴅ˼"
 __HELP__ = """
-**For Owner Bot Only.**
-/run [args] - Run eval CMD
-/logs [int] - Check logs bot
-/shell [args] - Run Exec/Terminal CMD
-/download [link/reply_to_telegram_file] - Download file from Telegram
-/disablechat [chat id] - Remove blacklist group
-/enablechat [chat id] - Add Blacklist group
-/banuser [chat id] - Ban user and block user so cannot use bot
-/unbanuser [chat id] - Unban user and make their can use bot again
-/gban - To Ban A User Globally.
-/ungban - To remove ban user globbaly.
-/restart - update and restart bot.
+╔══════════════════╗
+   🧑‍💻 𝗗𝗘𝗩 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 📌
+╚══════════════════╝
+**>>> ғᴏʀ ᴏᴡɴᴇʀ ʙᴏᴛ ᴏɴʟʏ.** 
+❍ /run [args] - ʀᴜɴ ᴇᴠᴀʟ ᴄᴍᴅ
+❍ /logs [int] - ᴄʜᴇᴄᴋ ʟᴏɢs ʙᴏᴛ
+❍ /shell [args] - ʀᴜɴ ᴇxᴇᴄ/ᴛᴇʀᴍɪɴᴀʟ ᴄᴍᴅ
+❍ /download [link/reply_to_telegram_file] - ᴅᴏᴡɴʟᴏᴀᴅ ғɪʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ
+❍ /disablechat [chat id] - ʀᴇᴍᴏᴠᴇ ʙʟᴀᴄᴋʟɪsᴛ ɢʀᴏᴜᴘ
+❍ /enablechat [chat id] - ᴀᴅᴅ ʙʟᴀᴄᴋʟɪsᴛ ɢʀᴏᴜᴘ
+❍ /banuser [chat id] - ʙᴀɴ ᴜsᴇʀ ᴀɴᴅ ʙʟᴏᴄᴋ ᴜsᴇʀ sᴏ ᴄᴀɴɴᴏᴛ ᴜsᴇ ʙᴏᴛ
+❍ /unbanuser [chat id] - ᴜɴʙᴀɴ ᴜsᴇʀ ᴀɴᴅ ᴍᴀᴋᴇ ᴛʜᴇɪʀ ᴄᴀɴ ᴜsᴇ ʙᴏᴛ ᴀɢᴀɪɴ
+❍ /gban - ᴛᴏ ʙᴀɴ ᴀ ᴜsᴇʀ ɢʟᴏʙᴀʟʟʏ
+❍ /ungban - ᴛᴏ ʀᴇᴍᴏᴠᴇ ʙᴀɴ ᴜsᴇʀ ɢʟᴏʙʙᴀʟʏ
+❍ /restart - ᴜᴘᴅᴀᴛᴇ ᴀɴᴅ ʀᴇsᴛᴀʀᴛ ʙᴏᴛ
 
-**For Public Use**
-/stats - Check statistic bot
-/json - Send structure message Telegram in JSON using Pyrogram Style.
+**>>> ғᴏʀ ᴘᴜʙʟɪᴄ ᴜsᴇ**
+❍ /stats - ᴄʜᴇᴄᴋ sᴛᴀᴛɪsᴛɪᴄ ʙᴏᴛ
+❍ /json - sᴇɴᴅ sᴛʀᴜᴄᴛᴜʀᴇ ᴍᴇssᴀɢᴇ ᴛᴇʟᴇɢʀᴀᴍ ɪɴ ᴊsᴏɴ ᴜsɪɴɢ ᴘʏʀᴏɢʀᴀᴍ sᴛʏʟᴇ
 """
 
 var = {}
@@ -713,3 +716,4 @@ if AUTO_RESTART:
     scheduler = AsyncIOScheduler(timezone="Asia/Jakarta")
     scheduler.add_job(auto_restart, trigger="interval", days=3)
     scheduler.start()
+
