@@ -41,18 +41,22 @@ from misskaty.core.keyboard import ikb
 from misskaty.helper.functions import extract_text_and_keyb, extract_urls
 from misskaty.vars import COMMAND_HANDLER
 
-__MODULE__ = "Filters"
-__HELP__ = """/filters To Get All The Filters In The Chat.
-/filter [FILTER_NAME] or /addfilter [FILTER_NAME] To Save A Filter(reply to a message).
+__MODULE__ = "˹ғɪʟᴛᴇʀs˼"
+__HELP__ = """
+╔══════════════════╗
+     🖼️ 𝗙𝗜𝗟𝗧𝗘𝗥'𝘀 🖼️ 
+╚══════════════════╝
+❍ /filters Tᴏ Gᴇᴛ Aʟʟ Tʜᴇ Fɪʟᴛᴇʀs Iɴ Tʜᴇ Cʜᴀᴛ.
+❍ /filter [FILTER_NAME] ᴏʀ /ᴀᴅᴅғɪʟᴛᴇʀ [FILTER_NAME] Tᴏ Sᴀᴠᴇ A Fɪʟᴛᴇʀ(ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ).
 
-Supported filter types are Text, Animation, Photo, Document, Video, video notes, Audio, Voice.
+❍ Sᴜᴘᴘᴏʀᴛᴇᴅ ғɪʟᴛᴇʀ ᴛʏᴘᴇs ᴀʀᴇ Tᴇxᴛ, Aɴɪᴍᴀᴛɪᴏɴ, Pʜᴏᴛᴏ, Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, ᴠɪᴅᴇᴏ ɴᴏᴛᴇs, Aᴜᴅɪᴏ, Vᴏɪᴄᴇ.
 
-To use more words in a filter use.
-`/filter Hey_there` or `/addfilter Hey_there` To filter "Hey there".
-/stop [FILTER_NAME] or /stopfilter [FILTER_NAME] To Stop A Filter.
-/stopall To delete all the filters in a chat (permanently).
+❍ Tᴏ ᴜsᴇ ᴍᴏʀᴇ ᴡᴏʀᴅs ɪɴ ᴀ ғɪʟᴛᴇʀ ᴜsᴇ.
+❍ /filter Hᴇʏ_ᴛʜᴇʀᴇ ᴏʀ /ᴀᴅᴅғɪʟᴛᴇʀ Hᴇʏ_ᴛʜᴇʀᴇ Tᴏ ғɪʟᴛᴇʀ "Hᴇʏ ᴛʜᴇʀᴇ".
+❍ /stop [FILTER_NAME] ᴏʀ /sᴛᴏᴘғɪʟᴛᴇʀ [FILTER_NAME] Tᴏ Sᴛᴏᴘ A Fɪʟᴛᴇʀ.
+❍ /stopall Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴛʜᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (ᴘᴇʀᴍᴀɴᴇɴᴛʟʏ).
 
-You can use markdown or html to save text too.
+❍ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴀʀᴋᴅᴏᴡɴ ᴏʀ ʜᴛᴍʟ ᴛᴏ sᴀᴠᴇ ᴛᴇxᴛ ᴛᴏᴏ.
 """
 
 
