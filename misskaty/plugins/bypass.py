@@ -21,18 +21,21 @@ from misskaty.helper import fetch, get_readable_file_size, rentry
 from misskaty.vars import COMMAND_HANDLER
 
 LIST_LINK = """
-- Pling and all aliases.
-- Wetransfer
-- Other link soon...
+- Pʟɪɴɢ ᴀɴᴅ ᴀʟʟ ᴀʟɪᴀsᴇs.
+- Wᴇᴛʀᴀɴsғᴇʀ
+- Oᴛʜᴇʀ ʟɪɴᴋ sᴏᴏɴ...
 
-This feature is deprecated..
+❍Tʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴅᴇᴘʀᴇᴄᴀᴛᴇᴅ. 
 """
 
-__MODULE__ = "Bypass"
+__MODULE__ = "˹ʙʏᴘᴀss˼"
 __HELP__ = f"""
-/directurl [Link] - Bypass URL.
+╔══════════════════╗
+     🈴 𝗕𝗬𝗣𝗔𝗦𝗦 🈴
+╚══════════════════╝
+❍ /directrul [Lɪɴᴋ] - Bʏᴘᴀss URL.
 
-Supported Link:
+❍ Sᴜᴘᴘᴏʀᴛᴇᴅ Lɪɴᴋ:
 {LIST_LINK}
 
 Credit: <a href='https://github.com/sanjit-sinha/PyBypass'>PyBypass</a>
