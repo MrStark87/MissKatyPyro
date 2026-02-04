@@ -1,4 +1,4 @@
-# * @author        Yasir Aris M <yasiramunandar@gmail.com>
+we# * @author        Yasir Aris M <yasiramunandar@gmail.com>
 # * @date          2023-06-21 22:12:27
 # * @projectName   MissKatyPyro
 # * Copyright ©YasirPedia All rights reserved
@@ -105,8 +105,7 @@ async def gemini_chatbot(_, ctx: Message, strings):
     uid = ctx.from_user.id if ctx.from_user else ctx.sender_chat.id
     msg = await ctx.reply_msg(strings("find_answers_str"), quote=True)
     if uid not in gemini_conversations:
-        gemini_conversations[uid] = [{"role": "system", "content": "Kamu adalah AI dengan karakter mirip kucing bernama MissKaty AI yang diciptakan oleh Yasir untuk membantu manusia mencari informasi dan gunakan bahasa sesuai yang saya katakan."}, {"role": "user", "content": ctx.input}]
-    else:
+        gemini_conversations[uid] = [{"role": "system", "content": "You are an AI with a character similar to Gemini, named Jarvis, created by Mister Stark to help humans find information, and you should use the language I speak."}, {"role": "user", "content": ctx.input}]
         gemini_conversations[uid].append({"role": "user", "content": ctx.input})
     ai_response = await get_openai_stream_response(False, GOOGLEAI_KEY, "https://generativelanguage.googleapis.com/v1beta", "gemini-2.5-flash", gemini_conversations[uid], msg, strings)
     if not ai_response:
@@ -145,6 +144,7 @@ async def openai_chatbot(self, ctx: Message, strings):
             gptai_conversations.pop(uid)
         return
     gptai_conversations[uid].append({"role": "assistant", "content": ai_response})
+
 
 
 
