@@ -35,7 +35,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="˹sʏsᴛᴇᴍ sᴛᴀᴛs˼",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="˹ᴏᴡɴᴇʀ˼", url="https://t.me/lI_StarkxRich_Il"),
+            InlineKeyboardButton(text="˹ᴏᴡɴᴇʀ˼", url="https://t.me/Il_StarkxRich_lI"),
         ],
         [
             InlineKeyboardButton(
